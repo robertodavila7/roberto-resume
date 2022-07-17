@@ -1,0 +1,193 @@
+{
+    "skills": [
+        {
+            "name": "Javascript",
+            "value": 90,
+            "label": "Senior"
+        },
+        {
+            "name": "HTML/HTML5",
+            "value": 95,
+            "label": "Master"
+        },
+        {
+            "name": "jQuery",
+            "value": 95,
+            "label": "Senior"
+        },
+        {
+            "name": "CSS/CSS3",
+            "value": 90,
+            "label": "Senior"
+        },
+        {
+            "name": "Angular 2+",
+            "value": 85,
+            "label": "Senior"
+        },
+        {
+            "name": "React",
+            "value": 80,
+            "label": "Senior"
+        },
+        {
+            "name": "NodeJS",
+            "value": 70,
+            "label": "Proficient"
+        },
+        {
+            "name": "StencilJS",
+            "value": 70,
+            "label": "Proficient"
+        },
+        {
+            "name": "Ionic",
+            "value": 75,
+            "label": "Proficient"
+        },
+        {
+            "name": "React Native",
+            "value": 60,
+            "label": "Proficient"
+        },
+        {
+            "name": "MySQL",
+            "value": 70,
+            "label": "Proficient"
+        },
+        {
+            "name": "PHP",
+            "value": 70,
+            "label": "Proficient"
+        },
+        {
+            "name": "MongoDB",
+            "value": 40,
+            "label": "junior"
+        },
+        {
+            "name": "Java",
+            "value": 30,
+            "label": "junior"
+        }
+    ],
+    "work": [
+        {
+            "id": 1,
+            "name": "Fullstack Developer",
+            "place": "Softtek",
+            "date": "Apr, 2008 - Present",
+            "description": "Working with customers and teams around the world. Project Leader 2 years working with Scrum framework and agile methodologies. Development and support of web applications for insurance, corporate, healthcare, and corporate divisions. Development of web components for the automotive industry. Development of web applications for an online shop. Development of web application and web components for videoconference application."
+        },
+        {
+            "id": 2,
+            "name": "Fullstack Developer",
+            "place": "Pixelania.com",
+            "date": "Jan, 2010 - Present",
+            "description": "This is my project, a website that provides information to videogame lovers around the world. This live site is created with Joomla as CMS, PHP as backend, Oracle DB, Unix, Linux. HTML5, and JavaScript (Backbone, jQuery) as frontend. I have implemented a lot of improvements to the performance and created a lot of tools for quickly doing several Joomla and Pixelania processes. I have created a Mobile App with HTML5, JavaScript (Ionic, Angular), and PHP, and supported admin tools with ReactJS."
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "name": "DOCTORATE DEGREE - COMPUTER SCIENCES ",
+            "place": "Universidad Autónoma de Aguascalientes",
+            "date": "2021 - 2024"
+        },
+        {
+            "id": 2,
+            "name": "MASTER DEGREE - INFORMATIC AND COMPUTER TECHNOLOGIES",
+            "place": "Universidad Autónoma de Aguascalientes",
+            "date": "2017 - 2020"
+        },
+        {
+            "id": 3,
+            "name": "BACHELOR'S DEGREE - COMPUTER SYSTEMS ENGENIEERING ",
+            "place": "Universidad Autónoma de Aguascalientes",
+            "date": "2004 - 2009"
+        },
+        {
+            "id": 4,
+            "name": "COMPUTERS TECHNICIAN",
+            "place": "C.B.T.I.S. 168",
+            "date": "2017 - 2020"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "HTML Resume with React",
+            "technologies": [
+                "HTML5",
+                "Javascript",
+                "React",
+                "SASS",
+                "JSON"
+            ],
+            "image": "/assets/images/projects/resume.png",
+            "description": "HTML resume created with React + Hooks, fetching data from a JSON configuration file.",
+            "github": "/"
+        },
+        {
+            "id": 2,
+            "name": "Movie App",
+            "technologies": [
+                "Frontend",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "image": "/assets/images/projects/movies.png",
+            "description": "App created with React + Hooks, fetching data from movies data from public API. ",
+            "github": "/",
+            "live": "/"
+        },
+        {
+            "id": 3,
+            "name": "Bitlania",
+            "technologies": [
+                "EDUCATION"
+            ],
+            "image": "/assets/images/projects/bitlania.png",
+            "description": "Free tutorials for getting start on technologies such as HTML, CSS, and BOOTSTRAP ",
+            "live": "/"
+        }
+    ],
+    "certifications": [
+        {
+            "id": 1,
+            "name": "Professional Scrum Master I",
+            "technologies": [
+                "METHODOLOGIES",
+                "AGILE"
+            ],
+            "image": "/assets/images/certifications/scrum.png",
+            "description": "Professional Scrum Master I (PSM I) is the standard certification to prove your knowledge and understand of Scrum and the role of the Scrum Master.",
+            "download": "/assets/files/scrum.pdf"
+        },
+        {
+            "id": 2,
+            "name": "Project Management by Google",
+            "technologies": [
+                "MANAGEMENT",
+                "METHODOLOGIES",
+                "AGILE",
+                "WATERFALL"
+            ],
+            "image": "/assets/images/certifications/project_management.png",
+            "description": "Project management is the application of knowledge, skills, tools, and techniques to project activities to meet the project requirements.",
+            "download": "/assets/files/management.pdf"
+        },
+        {
+            "id": 3,
+            "name": "ITIL Foundation Certificate in IT Service Management",
+            "technologies": [
+                "MANAGEMENT",
+                "BEST PRACTICES"
+            ],
+            "image": "/assets/images/certifications/itilv3.png",
+            "description": "ITIL v3 Foundation introduced candidates to the key elements, concepts and terminology found in ITIL",
+            "download": "/assets/files/itil.pdf"
+        }
+    ]
+}

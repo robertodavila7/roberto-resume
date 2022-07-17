@@ -1,0 +1,37 @@
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    label {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .bar {
+        width: 100%;
+        background-color: #eeeeee;
+        border-radius: 0.25rem;
+        margin-top: 1rem;
+        .progress {
+            width: 0%;
+            padding: 0.5rem;
+            border-radius: 0.25rem;
+            &.even {
+                background-color: #0dcaf0;
+            }
+            &.odd {
+                background-color: #d63384;
+            }
+            color: white;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0;
+            transition-property: opacity, width;
+            transition-delay: .2s;
+            transition-duration: 3s;
+            transition-timing-function: ease;
+            overflow: hidden;
+        }
+    }
+}

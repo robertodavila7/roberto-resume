@@ -1,0 +1,56 @@
+.bio-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bio-wrapper h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    font-size: calc(1.325rem + .9vw);
+    margin-bottom: 1.5rem;
+}
+
+.about-me, .bio {
+    margin: 1rem;
+}
+.about-me {
+    width: 50%;
+}
+
+.about-me p {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.bio {
+    width: 50%;
+}
+
+.bio-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bio-item .label {
+    width: 20%;
+    margin: 0.5rem;
+    text-align: left;
+}
+
+.bio-item .value {
+    width: 80%;
+}
+
+@media (max-width: 600px) {
+    .bio-wrapper {
+        flex-direction: column;
+    }
+    .about-me {
+        width: 100%;
+    }
+    .bio-item .label {
+        margin: 0rem;
+    }
+}

@@ -1,0 +1,19 @@
+@use '../../styles/global.scss';
+
+.professional-skills-wrapper {
+    .professional-skills-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .professional-skills-wrapper {
+        .professional-skills-content {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

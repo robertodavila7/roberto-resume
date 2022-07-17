@@ -1,0 +1,67 @@
+.header-wrapper {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../public/assets/images/header-background.jpg');
+}
+
+.header-container {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: white;
+}
+
+.header-container .fa a {
+    color: white;
+}
+
+.profile-image {
+    width: 160px;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.25),0 5px 15px 2px rgba(0,0,0,.2);
+}
+
+.profile-data, .profile-social, .profile-resume {
+    margin-top: 1rem;
+}
+
+.profile-social nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-social nav ul li a {
+    width: 100%;
+    margin: 0 20px;
+}
+
+.profile-social nav ul li a i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.profile-resume a {
+    padding: .625rem 1.5625rem .5625rem;
+    border-width: .125rem;
+    border: solid white 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    max-width: 300px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.profile-resume a, .profile-resume a:active, .profile-resume a:hover, .profile-resume a:visited {
+    text-decoration: none;
+    color: white;
+}
