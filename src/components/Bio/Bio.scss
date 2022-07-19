@@ -50,7 +50,19 @@
     .about-me {
         width: 100%;
     }
+    .bio {
+        width: 100%;
+    }
     .bio-item .label {
         margin: 0rem;
+    }
+    .about-me, .bio {
+        margin: 0;
+    }
+    .bio-item .label {
+        width: 30%;
+    }
+    .bio-item .value {
+        width: 70%;
     }
 }

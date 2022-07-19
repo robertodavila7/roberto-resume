@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header-wrapper">
         <div className="header-container">
             <div className="profile-image">
-                <img src="./assets/images/bio.jpg" width="100%" alt="My picture"/>
+                <img src="./assets/images/bio.jpg" width="100%" alt="Profile"/>
             </div>
             <div className="profile-data">
                 <h1>Roberto Dávila</h1>
@@ -36,9 +36,13 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
-            <div className="profile-resume">
-                <a href="./assets/files/resume.pdf" target="_blank">Download Resume</a>
-            </div>
+            {
+                false ? (
+                    <div className="profile-resume">
+                        <a href="./assets/files/resume.pdf" target="_blank">Download Resume</a>
+                    </div>
+                ) : (<></>)
+            }
         </div>
     </div>
   );

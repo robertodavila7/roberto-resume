@@ -31,23 +31,23 @@ const Projects = ({title}) => {
                             </div>
                             <div className="description">
                                 <ul>
-                                    {ele.technologies.map((item, index) => <li key={`technologi-${index}`}>{item}</li>)}
+                                    {ele.technologies.map((item, index) => <li key={`technology-${index}`}>{item}</li>)}
                                 </ul>
                                 <h3>{ele.name}</h3>
                                 <p>{ele.description}</p>
                                 {
                                     ele.download ? (
-                                        <p class="extra-link"><a href={ele.download} target="_blank" rel="noreferrer">Download Certificate</a></p>
+                                        <p className="extra-link"><a href={ele.download} target="_blank" rel="noreferrer">Download Certificate</a></p>
                                     ) : (<></>)
                                 }
                                 {
                                     ele.live ? (
-                                        <p class="extra-link"><a href={ele.live} target="_blank" rel="noreferrer">View Live Demo</a></p>
+                                        <p className="extra-link"><a href={ele.live} target="_blank" rel="noreferrer">View Live Demo</a></p>
                                     ) : (<></>)
                                 }
                                 {
                                     ele.github ? (
-                                        <p class="extra-link"><a href={ele.github} target="_blank" rel="noreferrer">View Source Code</a></p>
+                                        <p className="extra-link"><a href={ele.github} target="_blank" rel="noreferrer">View Source Code</a></p>
                                     ) : (<></>)
                                 }
                             </div>

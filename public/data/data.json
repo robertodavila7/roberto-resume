@@ -110,7 +110,7 @@
             "id": 4,
             "name": "COMPUTERS TECHNICIAN",
             "place": "C.B.T.I.S. 168",
-            "date": "2017 - 2020"
+            "date": "2001 - 2004"
         }
     ],
     "projects": [
@@ -126,7 +126,7 @@
             ],
             "image": "/assets/images/projects/resume.png",
             "description": "HTML resume created with React + Hooks, fetching data from a JSON configuration file.",
-            "github": "/"
+            "github": "https://github.com/robertodavila7/roberto-resume"
         },
         {
             "id": 2,
@@ -139,8 +139,8 @@
             ],
             "image": "/assets/images/projects/movies.png",
             "description": "App created with React + Hooks, fetching data from movies data from public API. ",
-            "github": "/",
-            "live": "/"
+            "github": "https://github.com/robertodavila7/movies",
+            "live": "http://robertodc.com/projects/movies/"
         },
         {
             "id": 3,
@@ -150,7 +150,7 @@
             ],
             "image": "/assets/images/projects/bitlania.png",
             "description": "Free tutorials for getting start on technologies such as HTML, CSS, and BOOTSTRAP ",
-            "live": "/"
+            "live": "https://www.youtube.com/channel/UC_4BfctTe8mIJ2ipUlVwLMg"
         }
     ],
     "certifications": [
